@@ -27,3 +27,20 @@ var interval = setInterval(function() {
                          .substring(0,3).toUpperCase());
     $('#currentDay').html(currentDate + " " + momentNow.format('hh:mm:ss A'));
   }, 100);
+  function initPage() {
+
+    console.log("Current Hour " + hour);
+    var init9 = JSON.parse(localStorage.getItem("09:00 am"));
+    nineAm.val(init9);
+  
+    var init10 = JSON.parse(localStorage.getItem("10:00 am"))
+    tenAm.val(init10);
+    
+    var init11 = JSON.parse(localStorage.getItem("11:00 am"))
+    elevenAm.val(init11);
+    
+    var init12 = JSON.parse(localStorage.getItem("12:00 pm"))
+    twelvePm.val(init12);
+    
+    var init1 = JSON.parse(localStorage.getItem("01:00 pm"))
+    onePm.val(init1);
