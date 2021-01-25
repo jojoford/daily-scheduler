@@ -9,4 +9,4 @@ updated HTML, CSS and added JS .
 This scheduler uses moment.js for the date and time.
 
 
-Deployed site link:
+Deployed site link:https://jojoford.github.io/daily-scheduler/
